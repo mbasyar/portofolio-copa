@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">IhzhaNB</h1>
+        <h1 className="footer__title">MR Basyar</h1>
 
         <ul className="footer__list">
           <li>
@@ -29,7 +29,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://web.facebook.com/profile.php?id=100004312487474"
+            href="https://web.facebook.com/muhammad basyar"
             className="footer__social-link"
             target="_blank"
           >
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/ih_zha/"
+            href="https://www.instagram.com/rulz.bsyaar/"
             className="footer__social-link"
             target="_blank"
           >
@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://twitter.com/BIhzha?t=6Lg01BCjxsh0U5rYrBck2Q&s=09"
+            href="https://twitter.com/jokowi?t=6Lg01BCjxsh0U5rYrBck2Q&s=09"
             className="footer__social-link"
             target="_blank"
           >
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-          &#169; Zha_Nly. All rigths reserved
+          &#169; CoppyRight 2022 - Developer by Basyar
         </span>
       </div>
     </footer>

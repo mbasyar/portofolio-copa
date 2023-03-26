@@ -17,12 +17,12 @@ const Contact = () => {
 
               <h3 className="contact__title">Email</h3>
               <span className="cointact__card-data">
-                ihzhanauvalb@gmail.com
+                muhammadkhoirulb@gmail.com
               </span>
               <br />
 
               <a
-                href="mailto:ihzhanauvalb@gmail.com.com"
+                href="mailto:muhammadkhoirulb@gmail.com"
                 className="contact__button"
               >
                 Write me{" "}
@@ -34,7 +34,7 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__title">Whatsapp</h3>
-              <span className="cointact__card-data">+62 857-7938-9695</span>
+              <span className="cointact__card-data">+62 882-1245-1316</span>
               <br />
 
               <a href="https://wa.me/6285779389695" className="contact__button">

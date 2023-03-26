@@ -17,7 +17,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> designer
+              Graphic <br /> Designer
             </h3>
           </div>
 
@@ -39,7 +39,7 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Product designer</h3>
+              <h3 className="services__modal-title">Graphic Designer</h3>
               <p className="services__modal-description">
                 Service woth more than 3 years of experience. Providing quality
                 work to clients and companies.

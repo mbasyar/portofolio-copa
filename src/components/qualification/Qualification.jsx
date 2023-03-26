@@ -50,12 +50,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Ibtidaiyah Madrasa</h3>
+                <h3 className="qualification__title">Primary School</h3>
                 <span className="qualification__subtitle">
-                  MIN 1 Jakarta Barat / MIN 1 Kamal
+                  MIT Al-Hikmah 01 Benda
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2007 - 2013
+                  <i className="uil uil-calendar-alt"></i> 2006 - 2012
                 </div>
               </div>
 
@@ -75,10 +75,10 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Junior High School</h3>
                 <span className="qualification__subtitle">
-                  Riyadlul Jannah Bogor Junior High School
+                  Mts Al-Hikmah 02 Benda
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2013 - 2016
+                  <i className="uil uil-calendar-alt"></i> 2012 - 2015
                 </div>
               </div>
             </div>
@@ -87,10 +87,10 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Vocational School</h3>
                 <span className="qualification__subtitle">
-                  Fajar Bogor Vocational School
+                  SMK Al-Huda Bumiayu
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2016 - 2019
+                  <i className="uil uil-calendar-alt"></i> 2015 - 2018
                 </div>
               </div>
 
@@ -110,10 +110,10 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">University</h3>
                 <span className="qualification__subtitle">
-                  Nahdlatul Ulama Indonesia University
+                   University Dian Nusantara
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2019 - 2021
+                  <i className="uil uil-calendar-alt"></i> Perkiraan lulus 2026
                 </div>
               </div>
             </div>
