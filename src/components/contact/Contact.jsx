@@ -37,7 +37,7 @@ const Contact = () => {
               <span className="cointact__card-data">+62 882-1245-1316</span>
               <br />
 
-              <a href="https://wa.me/6285779389695" className="contact__button">
+              <a href="https://wa.me/6288212451316" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
