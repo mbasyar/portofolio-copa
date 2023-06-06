@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/2.2-removebg-preview.png";
 import Info from "./Info";
-import CV from "../../assets/John-Cv.pdf";
 
 const About = () => {
   return (
@@ -20,8 +19,8 @@ const About = () => {
             Frontend developer, I create web pages with UI / UX user interface.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
-            Download CV
+          <a href="https://cv-mbasyar.vercel.app" target="_blank" rel="noreferrer" className="button button--flex">
+             CV MBasyar
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
