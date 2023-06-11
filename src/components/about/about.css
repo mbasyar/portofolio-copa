@@ -9,6 +9,7 @@
   border-radius: 1.5rem;
   justify-self: center;
   filter: grayscale(100%);
+  animation: profile__animate 8s ease-in-out infinite 2s;
 }
 
 .about__info {
