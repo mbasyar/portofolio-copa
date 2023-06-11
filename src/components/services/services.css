@@ -111,6 +111,10 @@
 .img1 {
   border-radius: 10px;
 }
+.img:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
 
 .services__modal-info {
   font-size: var(--small-font-size);

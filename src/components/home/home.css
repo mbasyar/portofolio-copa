@@ -60,7 +60,7 @@
 
 .home__img {
   background: url(../../assets//irul.jpg);
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
