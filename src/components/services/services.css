@@ -108,6 +108,10 @@
   font-size: 1.1rem;
 }
 
+.img1 {
+  border-radius: 10px;
+}
+
 .services__modal-info {
   font-size: var(--small-font-size);
 }

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./services.css";
+import img1 from "../../assets/dicoding.jpg"
+import img2 from "../../assets/eduwork.jpg"
+import img3 from "../../assets/gamelab.jpg"
+
 
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
@@ -9,7 +13,7 @@ const Services = () => {
   };
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
+      <h2 className="section__title">Certificate</h2>
       <span className="section__subtitle">What i offer</span>
 
       <div className="services__container container grid">
@@ -17,7 +21,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Graphic <br /> Designer
+              Eduwork <br /> Academy
             </h3>
           </div>
 
@@ -39,43 +43,17 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Graphic Designer</h3>
+              <h3 className="services__modal-title">Eduwork Bootcamp Academy</h3>
               <p className="services__modal-description">
-                Service woth more than 3 years of experience. Providing quality
-                work to clients and companies.
+              <img src={img2} alt="EDUWORK" width="200px" className="img1"/>  <br />
+              <a href="https://eduwork.id/profile/edit">Profile Eduwork</a>
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position yoout company brand
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    FULLSTACK JAVASCRIPT (MERN)
                   </p>
                 </li>
               </ul>
@@ -87,7 +65,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Dicoding <br /> Academy
             </h3>
           </div>
 
@@ -109,43 +87,49 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
-              <p className="services__modal-description">
-                Service woth more than 3 years of experience. Providing quality
-                work to clients and companies.
-              </p>
+              <h3 className="services__modal-title">Dicoding Academy</h3>
+              <p className="services__modal-description"> 
+              <img src={img1} alt="dicoding" width="200px" className="img1"/>  <br />
+              <a href="https://www.dicoding.com/users/mbasyar/academies">Profile Dicoding</a>
+              </p>  
+             
 
               <ul className="services__modal-services grid">
+                <li className="services__modal-service"> 
+               
+                </li>
+
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Web development basic
+                  </p>
+                 
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Frontend Beginner.</p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Solid Principal Programming.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
+                    Learn Javascript
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position yoout company brand
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                   AWS Cloud
                   </p>
                 </li>
               </ul>
@@ -157,7 +141,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Gamelab <br /> Academy
             </h3>
           </div>
 
@@ -179,44 +163,23 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">
-                Service woth more than 3 years of experience. Providing quality
-                work to clients and companies.
-              </p>
+              <h3 className="services__modal-title">Gamelab Academy</h3>
+              <p className="services__modal-description"> 
+              <img src={img3} alt="gamelab" width="200px" className="img1"/>  <br />
+              <a href="https://www.gamelab.id/members/74262">Profile Gamelab</a>
+              </p>  
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                   ReactJs basic.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position yoout company brand
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of products for companies.
-                  </p>
+                  <p className="services__modal-info">Critical Thinking</p>
                 </li>
               </ul>
             </div>
